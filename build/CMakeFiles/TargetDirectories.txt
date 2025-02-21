@@ -1,0 +1,7 @@
+/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/luckfox_pico_rtsp_yolov5.dir
+/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/edit_cache.dir
+/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/rebuild_cache.dir
+/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/list_install_components.dir
+/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/install.dir
+/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/install/local.dir
+/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/install/strip.dir
