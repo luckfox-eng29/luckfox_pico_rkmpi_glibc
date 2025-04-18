@@ -28,18 +28,18 @@ The CXX compiler identification is GNU, found in "/home/cro/luckfox_pico_rkmpi_g
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_735ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_735ab.dir/build.make CMakeFiles/cmTC_735ab.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_313ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_313ad.dir/build.make CMakeFiles/cmTC_313ad.dir/build
 gmake[1]: Entering directory '/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o
-/usr/bin/arm-linux-gnueabihf-gcc-9   -v -o CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o
+/usr/bin/arm-linux-gnueabihf-gcc-9   -v -o CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-gcc-9
 Target: arm-linux-gnueabihf
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --without-target-system-zlib --enable-libpth-m2 --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --includedir=/usr/arm-linux-gnueabihf/include --with-build-config=bootstrap-lto-lean --enable-link-mutex
 Thread model: posix
 gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
- /usr/lib/gcc-cross/arm-linux-gnueabihf/9/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccqdYr7j.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc2wQqUp.s
 GNU C17 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (arm-linux-gnueabihf)
 	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -58,15 +58,15 @@ GNU C17 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (arm-linux-gnueabihf)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 4eb7d7b73fb00901c0545fc07f3901b5
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
- /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o /tmp/ccqdYr7j.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o /tmp/cc2wQqUp.s
 GNU assembler version 2.38 (arm-linux-gnueabihf) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/
 LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
-Linking C executable cmTC_735ab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_735ab.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-gcc-9  -v CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o -o cmTC_735ab 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+Linking C executable cmTC_313ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_313ad.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc-9  -v CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o -o cmTC_313ad 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-gcc-9
 COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper
@@ -76,9 +76,9 @@ Thread model: posix
 gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) 
 COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/
 LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_735ab'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
- /usr/lib/gcc-cross/arm-linux-gnueabihf/9/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5CdbmU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_735ab /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/Scrt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtbeginS.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtendS.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_735ab'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_313ad'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccU8Yfym.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_313ad /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/Scrt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtbeginS.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtendS.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_313ad'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
 gmake[1]: Leaving directory '/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp'
 
 
@@ -100,18 +100,18 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_735ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_735ab.dir/build.make CMakeFiles/cmTC_735ab.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_313ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_313ad.dir/build.make CMakeFiles/cmTC_313ad.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/arm-linux-gnueabihf-gcc-9   -v -o CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/arm-linux-gnueabihf-gcc-9   -v -o CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-gcc-9]
   ignore line: [Target: arm-linux-gnueabihf]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --without-target-system-zlib --enable-libpth-m2 --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --includedir=/usr/arm-linux-gnueabihf/include --with-build-config=bootstrap-lto-lean --enable-link-mutex]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
-  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccqdYr7j.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc2wQqUp.s]
   ignore line: [GNU C17 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (arm-linux-gnueabihf)]
   ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -130,15 +130,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 4eb7d7b73fb00901c0545fc07f3901b5]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
-  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o /tmp/ccqdYr7j.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o /tmp/cc2wQqUp.s]
   ignore line: [GNU assembler version 2.38 (arm-linux-gnueabihf) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
-  ignore line: [Linking C executable cmTC_735ab]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_735ab.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-linux-gnueabihf-gcc-9  -v CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o -o cmTC_735ab ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [Linking C executable cmTC_313ad]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_313ad.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-linux-gnueabihf-gcc-9  -v CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o -o cmTC_313ad ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-gcc-9]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper]
@@ -148,13 +148,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_735ab'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
-  link line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5CdbmU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_735ab /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/Scrt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtbeginS.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtendS.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_313ad'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  link line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccU8Yfym.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_313ad /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/Scrt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtbeginS.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtendS.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crtn.o]
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc5CdbmU.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccU8Yfym.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -174,7 +174,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_735ab] ==> ignore
+    arg [cmTC_313ad] ==> ignore
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/Scrt1.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/Scrt1.o]
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crti.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crti.o]
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtbeginS.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtbeginS.o]
@@ -182,7 +182,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib]
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_735ab.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_313ad.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -212,18 +212,18 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0200c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0200c.dir/build.make CMakeFiles/cmTC_0200c.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ee2fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee2fa.dir/build.make CMakeFiles/cmTC_ee2fa.dir/build
 gmake[1]: Entering directory '/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/arm-linux-gnueabihf-g++-9   -v -o CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/arm-linux-gnueabihf-g++-9   -v -o CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-g++-9
 Target: arm-linux-gnueabihf
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --without-target-system-zlib --enable-libpth-m2 --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --includedir=/usr/arm-linux-gnueabihf/include --with-build-config=bootstrap-lto-lean --enable-link-mutex
 Thread model: posix
 gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
- /usr/lib/gcc-cross/arm-linux-gnueabihf/9/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccRiCoX9.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccoKBUWt.s
 GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (arm-linux-gnueabihf)
 	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -245,15 +245,15 @@ GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (arm-linux-gnueabihf)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 8e3856e59f34c8ce1ef22c152001a3b1
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
- /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRiCoX9.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccoKBUWt.s
 GNU assembler version 2.38 (arm-linux-gnueabihf) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/
 LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
-Linking CXX executable cmTC_0200c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0200c.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-g++-9  -v CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0200c 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+Linking CXX executable cmTC_ee2fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee2fa.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++-9  -v CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ee2fa 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-g++-9
 COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper
@@ -263,9 +263,9 @@ Thread model: posix
 gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) 
 COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/
 LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0200c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
- /usr/lib/gcc-cross/arm-linux-gnueabihf/9/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccc0nDGO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_0200c /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/Scrt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtbeginS.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtendS.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0200c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee2fa' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKFwoEr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_ee2fa /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/Scrt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtbeginS.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtendS.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee2fa' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp'
 gmake[1]: Leaving directory '/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp'
 
 
@@ -293,18 +293,18 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0200c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0200c.dir/build.make CMakeFiles/cmTC_0200c.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ee2fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee2fa.dir/build.make CMakeFiles/cmTC_ee2fa.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/arm-linux-gnueabihf-g++-9   -v -o CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/arm-linux-gnueabihf-g++-9   -v -o CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-g++-9]
   ignore line: [Target: arm-linux-gnueabihf]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --without-target-system-zlib --enable-libpth-m2 --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --includedir=/usr/arm-linux-gnueabihf/include --with-build-config=bootstrap-lto-lean --enable-link-mutex]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
-  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccRiCoX9.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -march=armv7-a+fp -auxbase-strip CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccoKBUWt.s]
   ignore line: [GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (arm-linux-gnueabihf)]
   ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -326,15 +326,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 8e3856e59f34c8ce1ef22c152001a3b1]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
-  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccRiCoX9.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccoKBUWt.s]
   ignore line: [GNU assembler version 2.38 (arm-linux-gnueabihf) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
-  ignore line: [Linking CXX executable cmTC_0200c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0200c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-linux-gnueabihf-g++-9  -v CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0200c ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  ignore line: [Linking CXX executable cmTC_ee2fa]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee2fa.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-linux-gnueabihf-g++-9  -v CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ee2fa ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-g++-9]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper]
@@ -344,13 +344,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/:/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0200c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
-  link line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccc0nDGO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_0200c /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/Scrt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtbeginS.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtendS.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee2fa' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu' '-march=armv7-a+fp']
+  link line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/9/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKFwoEr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_ee2fa /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/Scrt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtbeginS.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtendS.o /usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crtn.o]
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccc0nDGO.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKFwoEr.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -370,7 +370,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0200c] ==> ignore
+    arg [cmTC_ee2fa] ==> ignore
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/Scrt1.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/Scrt1.o]
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crti.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib/crti.o]
     arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtbeginS.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/crtbeginS.o]
@@ -378,7 +378,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/9/../../../../arm-linux-gnueabihf/lib]
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_0200c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ee2fa.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -404,13 +404,13 @@ Parsed CXX implicit link information from above output:
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3b8d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3b8d.dir/build.make CMakeFiles/cmTC_b3b8d.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_58d4c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_58d4c.dir/build.make CMakeFiles/cmTC_58d4c.dir/build
 gmake[1]: Entering directory '/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b3b8d.dir/CheckIncludeFile.c.o
-/usr/bin/arm-linux-gnueabihf-gcc-9    -o CMakeFiles/cmTC_b3b8d.dir/CheckIncludeFile.c.o -c /home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b3b8d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3b8d.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-gcc-9 CMakeFiles/cmTC_b3b8d.dir/CheckIncludeFile.c.o -o cmTC_b3b8d 
+Building C object CMakeFiles/cmTC_58d4c.dir/CheckIncludeFile.c.o
+/usr/bin/arm-linux-gnueabihf-gcc-9    -o CMakeFiles/cmTC_58d4c.dir/CheckIncludeFile.c.o -c /home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_58d4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58d4c.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc-9 CMakeFiles/cmTC_58d4c.dir/CheckIncludeFile.c.o -o cmTC_58d4c 
 gmake[1]: Leaving directory '/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp'
 
 
@@ -418,13 +418,13 @@ gmake[1]: Leaving directory '/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
 Change Dir: /home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e49b9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e49b9.dir/build.make CMakeFiles/cmTC_e49b9.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c9ff0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9ff0.dir/build.make CMakeFiles/cmTC_c9ff0.dir/build
 gmake[1]: Entering directory '/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e49b9.dir/src.c.o
-/usr/bin/arm-linux-gnueabihf-gcc-9 -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e49b9.dir/src.c.o -c /home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_e49b9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e49b9.dir/link.txt --verbose=1
-/usr/bin/arm-linux-gnueabihf-gcc-9 CMakeFiles/cmTC_e49b9.dir/src.c.o -o cmTC_e49b9 
+Building C object CMakeFiles/cmTC_c9ff0.dir/src.c.o
+/usr/bin/arm-linux-gnueabihf-gcc-9 -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c9ff0.dir/src.c.o -c /home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c9ff0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9ff0.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc-9 CMakeFiles/cmTC_c9ff0.dir/src.c.o -o cmTC_c9ff0 
 gmake[1]: Leaving directory '/home/cro/luckfox_pico_rkmpi_glibc/build/CMakeFiles/CMakeTmp'
 
 

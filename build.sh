@@ -17,7 +17,9 @@ if [ "$1" = "clean" ]; then
 fi
 
 options=("luckfox_pico_rtsp_opencv"
+	"luckfox_pico_rtsp_opencv_capture"
 	"luckfox_pico_rtsp_retinaface"
+	"luckfox_pico_rtsp_retinaface_osd"
 	"luckfox_pico_rtsp_yolov5")
 
 PS3="Enter your choice [1-${#options[@]}]: "

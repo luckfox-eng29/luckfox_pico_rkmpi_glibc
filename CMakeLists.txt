@@ -1,11 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
 
-set(SDK_PATH $ENV{LUCKFOX_SDK_PATH})
-if(NOT SDK_PATH)
-    message(WARNING "Please Set Luckfox-pico SDK Path. Such as:export LUCKFOX_SDK_PATH=/home/user/luckfox-pico")
-    return()
-endif()
-
 set(CMAKE_C_COMPILER "/usr/bin/arm-linux-gnueabihf-gcc-9")
 set(CMAKE_CXX_COMPILER "/usr/bin/arm-linux-gnueabihf-g++-9")
 
